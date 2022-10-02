@@ -20,22 +20,22 @@ class Resultado {
 
                     let result = {
                         UF: data.cdabr,
-                        Apuração: data.pst + "%",
+                        Apuracao: data.pst + "%",
                         Candidatos: [
                             {
-                                "1o Lugar": primeirosLugares[0].nm,
+                                "Candidato": primeirosLugares[0].nm,
                                 "% dos votos": primeirosLugares[0].pvap + "%",
-                                "Total de votos": primeirosLugares[0].vap
+                                "Total de votos": primeirosLugares[0].vap,
                             },
                             {
-                                "2o Lugar": primeirosLugares[1].nm,
+                                "Candidato": primeirosLugares[1].nm,
                                 "% dos votos": primeirosLugares[1].pvap + "%",
-                                "Total de votos": primeirosLugares[1].vap
+                                "Total de votos": primeirosLugares[1].vap,
                             },
                             {
-                                "3o Lugar": primeirosLugares[2].nm,
+                                "Candidato": primeirosLugares[2].nm,
                                 "% dos votos": primeirosLugares[2].pvap + "%",
-                                "Total de votos": primeirosLugares[2].vap
+                                "Total de votos": primeirosLugares[2].vap,
                             }
                         ]
 
